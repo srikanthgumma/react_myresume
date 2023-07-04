@@ -2,7 +2,7 @@
   "name": "resumepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://srikanthgumma.github.io/react_myresume",
+  "homepage": "https://srikanthgumma.github.io/react_myresume",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
