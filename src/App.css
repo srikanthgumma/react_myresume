@@ -1,0 +1,59 @@
+#resdiv{
+  height:1000px;
+  padding:60px;
+  text-align:left;
+  font-family:"sans-serif";
+}
+ #resgrid a{
+  text-decoration: none;
+  color: white;
+ }
+ #resgrid a:hover{
+  text-decoration: underline;
+ }
+#lop{
+  width:100%;
+    height:230px;
+}
+table tr{
+  border:1px solid black;
+}
+button{
+  width: 200px;
+}
+#lop h1,#lop p,#lop div{
+  color: white;
+} 
+#pp, #pp1{
+ color: black;
+  /* background-color: black; */
+}
+@media screen and (max-width:460px) {
+  #sri{
+    width: 100% !important;
+  }
+  #sri h1{
+    font-size: 20px;
+  }
+  #sri p{
+    font-size: 10px;
+  }
+  #sri #resgrid{
+    display: flex !important;
+    flex-direction: column ; 
+    /* width: 100% !important; */
+  }
+  img{
+    display: none;
+  }
+  #justify-tab-example{
+    width: 500px !important;
+    font-size: 10px !important;
+  }
+  #career h3{
+font-weight: bold;
+  }
+  #career p{
+    font-weight: normal;
+  }
+}
