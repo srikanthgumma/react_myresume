@@ -1,9 +1,16 @@
+import './main.css';
+import { AiOutlineHome } from 'react-icons/ai';
+import { SlLocationPin } from 'react-icons/sl';
+import { GiSkills } from 'react-icons/gi';
+import { LiaProjectDiagramSolid } from 'react-icons/lia';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import './App.css';
+// import logo from './images/sri.jpg';
 
-function App() {
-  return (
-    <div style={{textAlign:"center"}}>
+
+const Main = () => {
+    return (
+        <div style={{textAlign:"center"}}>
             <h1 style={{color:"white",marginBottom:"70px"}}>Webpage under pruduction</h1>
         <div style={{ display: "flex" }} id='home'>
             <div id='home1' style={{position:"sticky",left:"0"}}>
@@ -104,7 +111,6 @@ function App() {
 
       
         </div>
-  )
+    )
 }
-
-export default App;
+export default Main;

@@ -1,4 +1,4 @@
-#resdiv{
+/* #resdiv{
   height:1000px;
   padding:60px;
   text-align:left;
@@ -27,9 +27,9 @@ button{
 #pp, #pp1{
  color: black;
   /* background-color: black; */
-}
-@media screen and (max-width:460px) {
-  #sri{
+/* } */
+/* @media screen and (max-width:460px) { */
+  /* #sri{
     width: 100% !important;
   }
   #sri h1{
@@ -41,9 +41,9 @@ button{
   #sri #resgrid{
     display: flex !important;
     flex-direction: column ; 
-    /* width: 100% !important; */
-  }
-  img{
+    width: 100% !important;
+  } */
+  /* img{
     display: none;
   }
   #justify-tab-example{
@@ -55,5 +55,23 @@ font-weight: bold;
   }
   #career p{
     font-weight: normal;
-  }
+  } */
+/* }  */
+
+#findme:hover{
+    background-color: black !important;
+
+
+}
+#mywork{
+  border: 1px solid white;
+  max-width: 100%;
+  height: 600px;
+  margin-top: 30px;
+}
+#aboutme,#what{
+  border: 1px solid white;
+  max-width:  100%;
+  height: 600px;
+  margin-top: 30px;
 }
