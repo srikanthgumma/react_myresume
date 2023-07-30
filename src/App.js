@@ -1,7 +1,11 @@
 import Card from 'react-bootstrap/Card';
+import { AiOutlineHome } from 'react-icons/ai';
+import { SlLocationPin } from 'react-icons/sl';
+import { GiSkills } from 'react-icons/gi';
+import { LiaProjectDiagramSolid } from 'react-icons/lia';
 import './App.css';
 
-function App() {
+function App() { 
   return (
     <div style={{textAlign:"center"}}>
             <h1 style={{color:"white",marginBottom:"70px"}}>Webpage under pruduction</h1>

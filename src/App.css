@@ -75,3 +75,42 @@ font-weight: bold;
   height: 600px;
   margin-top: 30px;
 }
+div>a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.3;
+  font-size: 2.7vw;
+  transition: color 1s;
+}
+
+a:hover {
+  opacity: 1;
+  color: blue;
+
+}
+
+#home1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100px;
+  background-color: "transparent";
+  height: 100%;
+  gap: 20px;
+  text-align: center;
+  border-radius: dotted 0.1px white;
+  
+}
+
+#about:hover {
+  overflow: auto;
+}
+
+#about {
+  height: 100px;
+  overflow: hidden;
+  text-align: justify;
+}
+h1:hover{
+border-bottom: 1px dashed blue;
+}
